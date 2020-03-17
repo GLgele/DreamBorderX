@@ -1,13 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head> 
-<title>梦的边境X:DreamBorderX</title> 
+<!DOCTYPE HTML>
+<head>
+<title>梦的边境X:DreamBorderX</title>
 </head>
 <body>
+<a href="https://www.seniverse.com">天气插件支持：心知天气</a><br>
+  
+<div id="tp-weather-widget"></div>
+<script>
+  (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+  window.SeniverseWeatherWidget('show', {
+    flavor: "slim",
+    location: "WX4FBXXFKE4F",
+    geolocation: true,
+    language: "auto",
+    unit: "c",
+    theme: "auto",
+    token: "9852586c-f991-4d28-a9c3-18fbaac3e24e",
+    hover: "enabled",
+    container: "tp-weather-widget"
+  })
+</script>
+  
+<h1>梦的边境X:Dream Border X</h1>
+<div id="container" style="width:500px">
  
-<h1>梦的边境X:Dream Border X</h1><br>
- 
-<div id="container" style="width:700px">
 <div id="header" style="background-color:#FFA500;">
 <h1 style="margin-bottom:0;">梦的边境X</h1></div>
  
@@ -22,8 +38,6 @@
 超能力生存服务器 <br>
 尔利雷特大陆RPG <br>
 </div>
- 
 </div>
- 
+
 </body>
-</html>
