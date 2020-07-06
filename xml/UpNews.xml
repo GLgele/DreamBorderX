@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<UpNews>
 <news>
 	<news1>UPDATE</news1>
 	<news2>Update</news2>
@@ -9,3 +10,4 @@
 	<update2>Update</update2>
 	<update3>update</update3>
 </updates>
+</UpNews>
