@@ -4,7 +4,7 @@ if (window.XMLHttpRequest) {                                                    
 else {                                                                                // code for IE6, IE5
     xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
 }
-xmlhttp.open("GET", "https://glgele.github.io/DreamBorderX/xml/UpNews.xml", false);
+xmlhttp.open("GET", "https://glgele.gitee.io/DreamBorderX/xml/UpNews.xml", false);
 xmlhttp.send();
 xmlDoc = xmlhttp.responseXML;
 
